@@ -233,6 +233,10 @@ body {
 }
 .awesome-portfolio img {
   width: 100%;
+  transition: 0.4s;
+}
+.awesome-portfolio img:hover {
+  transform: scale(1.1);
 }
 .row-1,
 .row-2 {
@@ -267,5 +271,58 @@ input[type="email"] {
   padding: 15px;
   border: 0;
   border-radius: 0 25px 25px 0;
+  cursor: pointer;
+}
+
+/* footer part  */
+
+.footer {
+  background: #070211;
+  color: #ffffff;
+  font-family: "Inter" sans-serif;
+  padding: 80px 0 40px 0;
+}
+.footer hr {
+  height: 1px;
+  border: 0;
+  background: #fff;
+  opacity: 0.1;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top p {
+  margin-bottom: 10px;
+}
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.social-icon img {
+  cursor: pointer;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.unsubscribe-button {
+  background: transparent;
+  border: 0;
+  font-size: 24px;
+  color: #ffffff;
   cursor: pointer;
 }
