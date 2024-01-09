@@ -98,3 +98,44 @@ body {
   margin-left: 80px;
   margin-top: 30px;
 }
+
+/* new park hotel  */
+.new-park-hotel {
+  width: 1320px;
+  height: 482px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 50px auto;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0)
+  );
+}
+.hotel-content {
+  text-align: center;
+}
+.park-hotel-text {
+  font-size: 32px;
+  line-height: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: semi bold;
+}
+.red-text {
+  color: #ff0000;
+}
+.join-button {
+  background: #f00000;
+  border: 0;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  padding: 12px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
