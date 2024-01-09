@@ -173,3 +173,51 @@ body {
   color: red;
   margin-bottom: 30px;
 }
+
+/* holiday sales part  */
+.holiday-sales {
+  width: 1320px;
+  margin: 50px auto;
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+.holiday-heading {
+  width: 1320px;
+  text-align: center;
+}
+.holiday-sale-subtitle,
+.black-text {
+  color: #070211;
+}
+.holiday-sales-heading {
+  font-size: 72px;
+  text-transform: capitalize;
+  color: #f00000;
+}
+.holiday-sales-text {
+  width: 80%;
+  margin: 15px auto;
+  line-height: 30px;
+  color: #070211;
+  font-family: "Inter", sans-serif;
+}
+.holiday-sales-display {
+  display: flex;
+}
+.gift-box-photo {
+  margin-bottom: -220px;
+  z-index: 555;
+}
+.holiday-sales-right {
+  position: relative;
+}
+.fifty-percent-photo {
+  position: absolute;
+  z-index: 22;
+  left: -55px;
+}
+.lady-photo {
+  position: absolute;
+  left: 94px;
+  bottom: 0;
+}
