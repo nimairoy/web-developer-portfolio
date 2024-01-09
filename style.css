@@ -38,19 +38,21 @@ body {
   font-family: "Inter", sans-serif;
   padding: 60px 30px 100px 30px;
 }
-.holiday-title {
+.section-heading {
   font-size: 88px;
   font-weight: bold;
   color: #ff0000;
   margin-bottom: 30px;
 }
-.holiday-subtitle {
+.section-subtitle {
   font-size: 24px;
   font-weight: medium;
+  font-family: "Inter", sans-serif;
   color: #ff0000;
   margin: 15px 0;
+  text-transform: uppercase;
 }
-.holiday-category {
+.section-title {
   font-size: 48px;
   font-weight: bold;
   color: #070211;
@@ -138,4 +140,36 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+}
+
+/* new coming offer part  */
+.coming-offer {
+  width: 1320px;
+  height: 463px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+.coming-text {
+  margin-top: -20px;
+  line-height: 30px;
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 10px;
+}
+.red-circle {
+  border: 12px solid red;
+  border-radius: 50%;
+}
+.coming-photo {
+  margin: 20px;
+}
+.coming-year {
+  font-size: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 30px;
 }
