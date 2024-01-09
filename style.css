@@ -243,3 +243,29 @@ body {
 .row-1 {
   margin-bottom: 20px;
 }
+
+.newsletter {
+  background: rgba(255, 0, 0, 5%);
+  text-align: center;
+  width: 1320px;
+  margin: 50px auto;
+  padding: 100px 5px;
+  border-radius: 8px;
+}
+.subscribe-form {
+  margin-top: 30px;
+}
+input[type="email"] {
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 25px 0 0 25px;
+}
+.subcribe-button {
+  color: #ffffff;
+  background: #f00000;
+  padding: 15px;
+  border: 0;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+}
