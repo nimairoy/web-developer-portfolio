@@ -221,3 +221,25 @@ body {
   left: 94px;
   bottom: 0;
 }
+
+/* awesome portfolio */
+.awesome-portfolio {
+  width: 1320px;
+  margin: 50px auto;
+}
+.awesome-text {
+  width: 70%;
+  margin-bottom: 30px;
+}
+.awesome-portfolio img {
+  width: 100%;
+}
+.row-1,
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.row-1 {
+  margin-bottom: 20px;
+}
